@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="username-area">
+            <input type="text" id="username" placeholder="أدخل اسمك..." />
+        </div>
+        <div class="chat-box" id="chatBox">
+        </div>
+        <div class="input-area">
+            <input type="text" id="In" placeholder="اكتب رسالة...">
+            <button class="button" onclick="sand()">إرسال</button>
+        </div>
+        <button id="del" class="button" onclick="reset()">حذف جميع الرسائل</button>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
